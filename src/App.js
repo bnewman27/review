@@ -5,11 +5,7 @@ import './App.css';
 function App() {
   const [isTicking, setIsTicking] = useState(true);
   const [payment, setPayment] = useState(0)
-  useEffect(()=> {
-    setInterval(()=> {
-      setCount(count - 1)
-    }, 1000)
-  });
+  
     
   function handler() {
     setPayment(payment + 10);
